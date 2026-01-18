@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Blueprints for Tomorrow</title>
+  <style>
+    body {
+      font-family: Consolas, "Courier New", monospace;
+      line-height: 1.6;
+      margin: 0;
+      padding: 0;
+      background-color: #f5f7fa;
+      color: #333;
+    }
+    header {
+      background-color: #0F284D;
+      color: white;
+      padding: 20px 0;
+      text-align: center;
+    }
+    nav a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    section {
+      padding: 40px 20px;
+      max-width: 900px;
+      margin: auto;
+    }
+    h2 {
+      color: #0F284D;
+    }
+    .btn {
+      display: inline-block;
+      background-color: #0F284D;
+      color: white;
+      padding: 10px 20px;
+      margin-top: 10px;
+      text-decoration: none;
+      border-radius: 8px;
+    }
+    footer {
+      background-color: #1e293b;
+      color: white;
+      text-align: center;
+      padding: 20px 0;
+      margin-top: 40px;
+    }
+    form input, form textarea {
+      width: 100%;
+      padding: 10px;
+      margin-top: 10px;
+      margin-bottom: 20px;
+      border-radius: 5px;
+      border: 1px solid #ccc;
+    }
+    form button {
+      background-color: #0F284D;
+      color: white;
+      border: none;
+      padding: 12px 20px;
+      border-radius: 8px;
+      cursor: pointer;
+    }
+    form button:hover {
+      background-color: #2563eb;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Engineering Studio Lab</h1>
+  <nav>
+    <a href="#about">About</a>
+    <a href="#program">Program</a>
+    <a href="#signup">Sign Up / Donate</a>
+  </nav>
+</header>
+
+<section id="about">
+  <h2>About Us</h2>
+  <p>Blueprints for Tomorrow is a student-founded nonprofit dedicated to helping elementary and middle school students learn real-world engineering through project-based learning. Our mission is to provide a variety of students to engineering resources and a structured, mentor-guided environment to explore, design, and create innovative solutions to real problems.</p>
+</section>
+
+<section id="program">
+  <h2>Our 8-Week Pilot Program</h2>
+  <p>Students participate in an 8-week online engineering studio focused on solving real-world problems. Each week, students work on:</p>
+  <ul>
+    <li>Week 1 – Problem Framing: Define the problem, stakeholders, constraints<li>
+    <li>Week 2 – Brainstorming & Tradeoffs: Generate solutions, compare pros/cons<li>
+    <li>Week 3 – System Design: Block diagrams, system logic, components<li><li>
+    <li>Week 4 – Modeling & Simulation: Online tools, sketches, math modeling, pseudocode<li>
+    <li>Week 5 – Failure & Risk Analysis: What could go wrong? How to mitigate?<li>
+    <li>Week 6 – Iteration: Refine designs based on feedback<li>
+    <li>Week 7 – Final Proposal: Written and visual engineering proposal<li>
+    <li>Week 8 – Showcase & Reflection: Presentation + reflection on learning<li>
+  </ul>
+  <p>Example projects include designing assistive technology, low-cost environmental monitoring systems, or disaster preparedness tools. Students finish the program with a tangible engineering portfolio piece and new problem-solving skills.</p>
+</section>
+
+<section id="signup">
+  <h2>Student Signup / Support Our Program</h2>
+  <p>Interested in joining our next cohort? Fill out the form below. If you’d like to support our students, donations directly fund student scholarships and program resources.</p>
+
+  <form action="#" method="post">
+    <label for="name">Full Name:</label>
+    <input type="text" id="name" name="name" required>
+
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required>
+
+    <label for="role">I am a:</label>
+    <select id="role" name="role">
+      <option value="student">Student</option>
+      <option value="donor">Donor</option>
+      <option value="volunteer">Volunteer</option>
+    </select>
+
+    <label for="message">Message / Interests:</label>
+    <textarea id="message" name="message" rows="4" placeholder="Tell us why you want to join or support"></textarea>
+
+    <button type="submit">Submit</button>
+  </form>
+
+  <p>Donation Example: $100 sponsors one student for the full 8-week program.</p>
+</section>
+
+<footer>
+  <p>&copy; 2026 Engineering Studio Lab | Connect with us: info@engineeringstudio.org</p>
+</footer>
+
+</body>
+</html>
